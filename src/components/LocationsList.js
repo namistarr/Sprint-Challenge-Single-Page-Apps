@@ -7,9 +7,7 @@ const LocationList = styled.div`
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
-
 `
-
 export default function LocationsList() {
 
     const [locations, setLocations] = useState([]);
